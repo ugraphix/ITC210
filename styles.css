@@ -1,0 +1,257 @@
+@charset "utf-8";
+/*
+Theme Name: HHOT
+Theme URI: http://homelesshumansoftacoma.com/
+Description: Theme designed for Grace's portfolio.
+Author: HHTO
+Author URI: http://homelesshumansoftacoma.com/
+Version: 1.0 
+Tags: simple, basic, plain, customizable
+
+License: 
+License URI:
+
+General comments: I hope this works.
+*/
+
+* {
+	padding:0;
+	margin:0;
+}
+
+#nav {
+    height: 70px;
+    
+    padding-right: 5%;
+    border-bottom: 2px solid black;
+}
+
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float:right;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    
+}
+
+#nav img {
+    max-width: 90%;
+    max-height: 90%; 
+    margin-left:5%;
+    margin-top: .25em;
+}
+
+
+#nav li a:hover {
+    color: red;
+}
+
+
+
+.donate {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    /*margin: 20.5px 16px;*/
+    padding:3px 3px 3px 3px;
+}
+
+.search {
+    width: 80px;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: white;
+    background-image: url('images/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-top: 1.9em;
+    color:darkgrey;
+}
+input[type=text] img {
+    height:5%;
+    width:5%;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 20%;
+}
+
+
+
+#banner {
+    height:500px ;
+    
+    text-align: center;
+    border-bottom: 2px solid black;
+    }
+
+.readmore {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding:3px 3px 3px 3px;
+}
+
+#bannertext {
+    width: 50%;
+    height:50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:175px;
+}
+
+#change {
+    height: 350px;
+    
+    border-bottom: 2px solid black;
+}
+
+
+#change1 { 
+    float: left;
+    align-items: center;
+    justify-content: center; 
+    
+    height: 350px;
+    width:33.3333333333%;
+    text-align: center;
+}
+
+.volunteerbutton {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding:3px 3px 3px 3px;
+    height:30px;
+    width:70px;
+    margin-top: 30px;
+}
+
+#change2 { 
+    float: left;
+    align-items: center;
+    justify-content: center;
+    
+    height: 350px;
+    width:33.3333333333%;
+    text-align: center;
+}
+
+#change2 h2{
+    padding-top: 20px;
+}
+
+.donatebutton {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding:3px 3px 3px 3px;
+    height:30px;
+    width:70px;
+    margin-top: 30px;
+}
+
+#change3 { 
+    float: left;
+    align-items: center;
+    justify-content: center; 
+    
+    height: 350px;
+    width:33.3333333333%;
+    text-align: center;
+}
+
+
+
+.giftbutton {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding:3px 3px 3px 3px;
+    height:30px;
+    width:70px;
+    margin-top: 30px;
+}
+
+
+#change1 img {
+    max-width: 40%;
+    max-height: 40%;
+    margin: auto;
+    margin-top:25%;
+
+}
+
+#change2 img {
+    max-width: 40%;
+    max-height: 40%;  
+    margin: auto;
+    margin-top:10%;
+    
+}
+
+#change3 img {
+    max-width: 40%;
+    max-height: 40%;  
+    margin: auto;
+    margin-top:25%;
+}
+
+
+
+
+#newspicture {
+    height: 400px;
+    
+    line-height: 400px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+#footer {
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+
+#footer h3 {
+    padding-top:10px;
+}
+
+.signup {
+    
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+
+.email {
+    
+    width:150px;
+    padding:  5px 5px 5px;
+    margin-bottom: 20px;
+}
+
+#copyright {
+    height: 30px; 
+    font-size:11px;
+    padding-top:15px;
+}
